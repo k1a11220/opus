@@ -1,24 +1,13 @@
-//
-//  ContentView.swift
-//  opus
-//
-//  Created by Beomsoo on 8/18/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var locationManager = LocationManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            WidgetBrowserView()
+                .navigationTitle("opus")
+                .environmentObject(locationManager)
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

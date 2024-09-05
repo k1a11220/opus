@@ -14,6 +14,22 @@
 		01099A542C72931100A51B93 /* opusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A532C72931100A51B93 /* opusTests.swift */; };
 		01099A5E2C72931100A51B93 /* opusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A5D2C72931100A51B93 /* opusUITests.swift */; };
 		01099A602C72931100A51B93 /* opusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A5F2C72931100A51B93 /* opusUITestsLaunchTests.swift */; };
+		01099A6E2C7293F000A51B93 /* WidgetBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A6D2C7293F000A51B93 /* WidgetBrowserView.swift */; };
+		01099A702C72941600A51B93 /* WidgetPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A6F2C72941600A51B93 /* WidgetPreviewView.swift */; };
+		01099A722C72942400A51B93 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A712C72942400A51B93 /* SubscriptionView.swift */; };
+		01099A772C72945000A51B93 /* WidgetBrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A762C72945000A51B93 /* WidgetBrowserViewModel.swift */; };
+		01099A792C72945C00A51B93 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A782C72945C00A51B93 /* WeatherViewModel.swift */; };
+		01099A802C72948600A51B93 /* WidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A7F2C72948600A51B93 /* WidgetModel.swift */; };
+		01099A822C72948D00A51B93 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A812C72948D00A51B93 /* WeatherModel.swift */; };
+		01099A872C7294B400A51B93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A862C7294B400A51B93 /* Constants.swift */; };
+		01099A892C7294B900A51B93 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A882C7294B900A51B93 /* Extensions.swift */; };
+		01099A8E2C7294CE00A51B93 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A8D2C7294CE00A51B93 /* WeatherService.swift */; };
+		01099A9C2C72962400A51B93 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01099A9B2C72962400A51B93 /* LocationService.swift */; };
+		01C9822A2C72F48500602A02 /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C982292C72F48500602A02 /* SubscriptionService.swift */; };
+		01C9822D2C72F4B400602A02 /* opusWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9822C2C72F4B400602A02 /* opusWidget.swift */; };
+		01C9822F2C72F4BB00602A02 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9822E2C72F4BB00602A02 /* WidgetView.swift */; };
+		01C982322C72F4D600602A02 /* WidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C982312C72F4D600602A02 /* WidgetStyle.swift */; };
+		01C982342C72F60500602A02 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C982332C72F60500602A02 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,22 @@
 		01099A592C72931100A51B93 /* opusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = opusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01099A5D2C72931100A51B93 /* opusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opusUITests.swift; sourceTree = "<group>"; };
 		01099A5F2C72931100A51B93 /* opusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01099A6D2C7293F000A51B93 /* WidgetBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBrowserView.swift; sourceTree = "<group>"; };
+		01099A6F2C72941600A51B93 /* WidgetPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPreviewView.swift; sourceTree = "<group>"; };
+		01099A712C72942400A51B93 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		01099A762C72945000A51B93 /* WidgetBrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBrowserViewModel.swift; sourceTree = "<group>"; };
+		01099A782C72945C00A51B93 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		01099A7F2C72948600A51B93 /* WidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetModel.swift; sourceTree = "<group>"; };
+		01099A812C72948D00A51B93 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		01099A862C7294B400A51B93 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		01099A882C7294B900A51B93 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		01099A8D2C7294CE00A51B93 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		01099A9B2C72962400A51B93 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		01C982292C72F48500602A02 /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		01C9822C2C72F4B400602A02 /* opusWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opusWidget.swift; sourceTree = "<group>"; };
+		01C9822E2C72F4BB00602A02 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		01C982312C72F4D600602A02 /* WidgetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetStyle.swift; sourceTree = "<group>"; };
+		01C982332C72F60500602A02 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				01099A412C72930F00A51B93 /* opus */,
+				01C9822B2C72F49300602A02 /* opusWidget */,
+				01C982302C72F4C500602A02 /* shared */,
 				01099A522C72931100A51B93 /* opusTests */,
 				01099A5C2C72931100A51B93 /* opusUITests */,
 				01099A402C72930F00A51B93 /* Products */,
@@ -96,7 +130,12 @@
 			children = (
 				01099A422C72930F00A51B93 /* opusApp.swift */,
 				01099A442C72930F00A51B93 /* ContentView.swift */,
-				01099A462C72931100A51B93 /* Assets.xcassets */,
+				01099A6C2C7293D900A51B93 /* Views */,
+				01099A7E2C72947B00A51B93 /* Models */,
+				01099A752C72943E00A51B93 /* ViewModels */,
+				01099A8C2C7294C800A51B93 /* Services */,
+				01099A852C72949800A51B93 /* utilities */,
+				01099A912C7294E000A51B93 /* resources */,
 				01099A482C72931100A51B93 /* Preview Content */,
 			);
 			path = opus;
@@ -125,6 +164,79 @@
 				01099A5F2C72931100A51B93 /* opusUITestsLaunchTests.swift */,
 			);
 			path = opusUITests;
+			sourceTree = "<group>";
+		};
+		01099A6C2C7293D900A51B93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01099A6D2C7293F000A51B93 /* WidgetBrowserView.swift */,
+				01099A6F2C72941600A51B93 /* WidgetPreviewView.swift */,
+				01099A712C72942400A51B93 /* SubscriptionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01099A752C72943E00A51B93 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				01099A762C72945000A51B93 /* WidgetBrowserViewModel.swift */,
+				01099A782C72945C00A51B93 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		01099A7E2C72947B00A51B93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01099A7F2C72948600A51B93 /* WidgetModel.swift */,
+				01099A812C72948D00A51B93 /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01099A852C72949800A51B93 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				01099A862C7294B400A51B93 /* Constants.swift */,
+				01C982332C72F60500602A02 /* LocationManager.swift */,
+				01099A882C7294B900A51B93 /* Extensions.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		01099A8C2C7294C800A51B93 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				01099A8D2C7294CE00A51B93 /* WeatherService.swift */,
+				01099A9B2C72962400A51B93 /* LocationService.swift */,
+				01C982292C72F48500602A02 /* SubscriptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		01099A912C7294E000A51B93 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				01099A462C72931100A51B93 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		01C9822B2C72F49300602A02 /* opusWidget */ = {
+			isa = PBXGroup;
+			children = (
+				01C9822C2C72F4B400602A02 /* opusWidget.swift */,
+				01C9822E2C72F4BB00602A02 /* WidgetView.swift */,
+			);
+			path = opusWidget;
+			sourceTree = "<group>";
+		};
+		01C982302C72F4C500602A02 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				01C982312C72F4D600602A02 /* WidgetStyle.swift */,
+			);
+			path = shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +369,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01099A772C72945000A51B93 /* WidgetBrowserViewModel.swift in Sources */,
+				01099A6E2C7293F000A51B93 /* WidgetBrowserView.swift in Sources */,
+				01C982322C72F4D600602A02 /* WidgetStyle.swift in Sources */,
 				01099A452C72930F00A51B93 /* ContentView.swift in Sources */,
+				01099A722C72942400A51B93 /* SubscriptionView.swift in Sources */,
+				01099A702C72941600A51B93 /* WidgetPreviewView.swift in Sources */,
 				01099A432C72930F00A51B93 /* opusApp.swift in Sources */,
+				01C9822A2C72F48500602A02 /* SubscriptionService.swift in Sources */,
+				01C982342C72F60500602A02 /* LocationManager.swift in Sources */,
+				01099A872C7294B400A51B93 /* Constants.swift in Sources */,
+				01099A8E2C7294CE00A51B93 /* WeatherService.swift in Sources */,
+				01C9822D2C72F4B400602A02 /* opusWidget.swift in Sources */,
+				01C9822F2C72F4BB00602A02 /* WidgetView.swift in Sources */,
+				01099A9C2C72962400A51B93 /* LocationService.swift in Sources */,
+				01099A792C72945C00A51B93 /* WeatherViewModel.swift in Sources */,
+				01099A892C7294B900A51B93 /* Extensions.swift in Sources */,
+				01099A822C72948D00A51B93 /* WeatherModel.swift in Sources */,
+				01099A802C72948600A51B93 /* WidgetModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
